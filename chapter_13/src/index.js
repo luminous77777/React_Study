@@ -3,20 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginControl from "./LoginControl";
-import Mailbox from "./Mailbox";
-import MainPage from "./MainPage";
-import LandingPage from "./LandingPage";
-import Web from "./chapter_09/Web";
+import WelcomeDialog1 from "./chapter_13/WelcomeDialog";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/*<Mailbox messages={["메시지","메시지","또 메시지"]}/>*/}
-      {/*<MainPage />*/}
-    {/*<LoginControl />*/}
-    {/*  <LandingPage />*/}
-      <Web />
+    <ProfileCard />
   </React.StrictMode>
 );
 

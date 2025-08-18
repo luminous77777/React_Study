@@ -3,20 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginControl from "./LoginControl";
-import Mailbox from "./Mailbox";
-import MainPage from "./MainPage";
-import LandingPage from "./LandingPage";
-import Web from "./chapter_09/Web";
+import NumberList from "./chapter_10/NumberList";
+import AttendanceBook from "./AttendanceBook";
 
+const numbers = [1,2,3,4,5]
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/*<Mailbox messages={["메시지","메시지","또 메시지"]}/>*/}
-      {/*<MainPage />*/}
-    {/*<LoginControl />*/}
-    {/*  <LandingPage />*/}
-      <Web />
+    {/*<NumberList numbers ={numbers}/>*/}
+    <AttendanceBook/>
   </React.StrictMode>
 );
 
