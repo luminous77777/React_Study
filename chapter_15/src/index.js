@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import DarkOrLight from "./chapter_14/DarkOrLight";
-import Dummy from "./chapter_14/Dummy";
+import MainPage from "./chapter_15/MainPage";
+import Sample from "./chapter_15/Sample";
+import Sample2 from "./chapter_15/sample2";
+import Blocks from "./chapter_15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Sample />
+    <Sample2 />
+    < Blocks/>
   </React.StrictMode>
 );
 
